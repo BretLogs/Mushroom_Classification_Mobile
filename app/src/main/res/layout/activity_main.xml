@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_marginTop="250px"
+        android:src="@drawable/landing_page_png"
+     />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_marginStart="50px"
+        android:layout_marginEnd="50px"
+        android:fontFamily="@font/league_spartan_medium"
+        android:gravity="center"
+        android:layout_marginTop="50px"
+        android:text="Mushroom Detection is an an android application that determines the Class of a mushroom with just a point of your mobile phone"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/class_btn"
+        android:layout_width="900px"
+        android:layout_height="60dp"
+        android:layout_marginTop="600px"
+        android:fontFamily="@font/league_spartan_semibold"
+        android:text="Detect Mushroom"
+        android:textAllCaps="false"
+        android:textSize="40px"
+        android:backgroundTint="#FFA7A7"
+        android:textColor="#1D1D1D"
+        />
+
+
+</LinearLayout>
